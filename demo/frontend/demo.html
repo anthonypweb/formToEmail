@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formToEmail</title>
+    <script src="demo.js" defer></script>
+   <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+    <h1>Envoie du formulaire par email</h1>
+    <form id="myForm">
+   <!-- Ajoutez vos champs de formulaire ici -->
+        <input type="text" name="nom_utilisateur" placeholder="Nom d'utilisateur">
+        <input type="email" name="email" placeholder="Adresse e-mail">
+        <input type="text" name="sujet" placeholder="Sujet">
+        <textarea name="message" placeholder="Message"></textarea>
+        
+        <button type="submit">Envoyer</button>
+        
+        <div id="successMessage" style="display: none;">
+            <p>L'e-mail a été envoyé avec succès !</p>
+        </div>
+    </form>
+ 
+</body>
+
+</html>
